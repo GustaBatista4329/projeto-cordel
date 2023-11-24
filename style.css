@@ -27,6 +27,7 @@ header > h1 {
     margin-bottom: -10px;
     font-family: 'PassionOne-Regular.ttf', Arial, Helvetica, sans-serif;
     font-size: 10vw;
+    font-variant: small-caps;
 }
 
 a{
