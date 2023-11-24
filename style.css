@@ -61,7 +61,7 @@ main > section#joaninha{
 main > section > article#jj{
     background-color: #0216018a;
     color: white;
-    width: 850px;
+    max-width: 850px;
 }
 
 main > section#folhas{
@@ -77,7 +77,7 @@ main > section#folhas{
 main > section > article#ff{
     background-color: rgba(0, 0, 0, 0.493);
     color: white;
-    width: 850px;
+    max-width: 850px;
 }
 
 footer{
