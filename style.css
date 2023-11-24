@@ -1,0 +1,95 @@
+@charset "UFT-8";
+
+@font-face {
+    font-family: 'PassionOne-Regular.ttf';
+    src: url('fonte/Passion_One/PassionOne-Regular.ttf');
+}
+@font-face {
+    font-family: 'Sriracha-Regular.ttf';
+    src: url('fonte/Sriracha-Regular.ttf');
+}
+
+body{
+    margin: 0px;
+    background-color: white;
+}
+
+header{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > h1 {
+    margin-top: 40px;
+    margin-bottom: -10px;
+    font-family: 'PassionOne-Regular.ttf', Arial, Helvetica, sans-serif;
+    font-size: 10vw;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    margin-top: 80px;
+    margin-left: 30px;
+    font-family: 'Sriracha-Regular.ttf', Arial, Helvetica, sans-serif;
+    font-size: 3.5vw;
+    padding-bottom: 160px;
+}
+
+
+
+main > section#joaninha{
+    margin-left: -30px;
+    padding: 100px 30px;
+    background-image: url('img/imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main > section > article#jj{
+    background-color: #0216018a;
+    color: white;
+    width: 850px;
+}
+
+main > section#folhas{
+    margin-left: -30px;
+    padding: 100px 30px;
+    background-image: url('img/imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main > section > article#ff{
+    background-color: rgba(0, 0, 0, 0.493);
+    color: white;
+    width: 850px;
+}
+
+footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer > p{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+}
